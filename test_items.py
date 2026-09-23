@@ -11,4 +11,4 @@ def test_add_to_cart_button_is_displayed(browser):
         (By.CLASS_NAME, "btn-add-to-basket")))
 
 
-    assert button.is_displayed(), "Onboarding action button isn't displayed"
+    assert button.is_displayed(), "Add to basket button isn't displayed"
